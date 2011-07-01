@@ -1,0 +1,25 @@
+Some tools to extract data from Wikipedia database dump files or databases.
+
+
+WARNING
+-------
+These scripts were quick and dirty solutions to some tasks I had to perform.
+They are not shiny, finished products.
+No warranty whatsoever.
+Some paths/databases names, etc. may have to adapted.
+
+GETTING THE DATA
+----------------
+You can download the Wikipedia dumps (and dumps of other Wikimedia projects)
+from http://dumps.wikimedia.org/backup-index.html
+
+EXTRACTING DATA
+---------------
+Some scripts expect the data to be in a MySQL database.
+Use mwimport.pl (warning: it may be outdated), Google, and common sense to
+load the dunp into your database.
+
+I also highly recommend to look around for other extraction tools for Wikipedia
+data. They may be better suited to whatever you need than the scripts in this
+repository.
+
